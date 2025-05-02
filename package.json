@@ -14,28 +14,30 @@
   "activationEvents": ["*"],
   "main": "./extension.js",
   "contributes": {
-
+    
     "viewsContainers": {
     "activitybar": [
       {
-        "id": "feskoSidebar",
+        "id": "chatSidebar",
         "title": "Fesko",
         "icon": "f-inside-a-circle.png"
       }
     ]
   },
   "views": {
-    "feskoSidebar": [
+    "chatSidebar": [
       {
-        "id": "feskoMessages",
-        "name": "Messages"
+        "type": "webview",
+        "id": "chatView",
+        "name": "Message Sender"
       }
     ]
+    
   },
     "commands": [
       {
-        "command": "fesko.helloWorld",
-        "title": "Hello World"
+        "command": "extension.sendMessage",
+        "title": "send"
       }
     ]
   },
