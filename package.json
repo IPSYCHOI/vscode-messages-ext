@@ -1,11 +1,12 @@
 {
-  "name": "fesko",
+  "name": "fesko-msg",
   "displayName": "fesko",
   "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
   },
+  "publisher": "fesko",
   "categories": [
     "Other"
   ],
