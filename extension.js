@@ -8,7 +8,7 @@ function activate(context) {
   vscode.window.showInformationMessage("Hello from the fesk");
 
   // Set up Socket.IO connection
-  socket = io("https://remote-lu-ahmedaaerhman-da23b30a.koyeb.app", {
+  socket = io("https://grim-shirline-ahmedaaerhman-e8a9933e.koyeb.app", {
     transports: ['websocket'], // Force WebSocket only
     reconnectionAttempts: 3
   });
