@@ -13,6 +13,24 @@
   "activationEvents": ["*"],
   "main": "./extension.js",
   "contributes": {
+
+    "viewsContainers": {
+    "activitybar": [
+      {
+        "id": "feskoSidebar",
+        "title": "Fesko",
+        "icon": "f-inside-a-circle.png"
+      }
+    ]
+  },
+  "views": {
+    "feskoSidebar": [
+      {
+        "id": "feskoMessages",
+        "name": "Messages"
+      }
+    ]
+  },
     "commands": [
       {
         "command": "fesko.helloWorld",
