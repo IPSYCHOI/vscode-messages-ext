@@ -2,7 +2,7 @@
   "name": "fesko-msg",
   "displayName": "fesko",
   "description": "",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "icon": "icon.jpeg",
   "engines": {
     "vscode": ">=1.96.0"
